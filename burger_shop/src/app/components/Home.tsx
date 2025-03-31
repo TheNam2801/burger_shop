@@ -6,7 +6,6 @@ import Delivery from "./Delivery/Delivery";
 import Team from "./Team/Team";
 import Reservation from "./Reservation/Reservation";
 import Newsletter from "./Newsletter/Newsletter";
-import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,7 +17,6 @@ const Home = () => {
       <Team />
       <Reservation />
       <Newsletter />
-      <Footer />
     </div>
   );
 };
